@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SeleniumProjectSuite" parallel="classes" thread-count="5">
+	<listeners>
+		<listener class-name="com.selenium_project.listeners.TestListener" />
+	</listeners>
+	<test name="SeleniumProjectTest">
+		<classes>
+			<class name="com.selenium_project.test.DummyClass" />
+			<class name="com.selenium_project.test.DummyClass2" />
+			<class name="com.selenium_project.test.LoginPageTest" />
+			<class name="com.selenium_project.test.HomePageTest" />
+		</classes>
+	</test>
+
+</suite>
